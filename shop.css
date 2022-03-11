@@ -1,0 +1,90 @@
+body {
+    color: white;
+    background-color: white;
+}
+a {
+    text-decoration: none;
+}
+h2{
+    color: black;
+    font-size: 28px;
+}
+p{
+    color: black;
+}
+nav ul {
+    display: flex;
+    flex-wrap:wrap;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    list-style: none;
+    background-color: rgb(247, 0, 255);
+    color: aliceblue;
+    margin: 0;
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+    display: flex;
+}
+nav a, nav a:visited {
+    text-decoration: none;
+    width: 100%;
+    color: aliceblue;
+}
+nav a:hover {
+    color: black;
+    background-color: orange;
+}
+nav a:hover, nav a.active {
+    color: black;
+    background-color: orange;
+}
+.welcome {
+    color: black;
+    text-align: center;
+}
+.card-area {
+    display: flex;
+    flex-flow: wrap;
+    justify-content:center;
+}
+.card {
+    min-width: 350px;
+    min-height: 200px;
+    border: 5px solid rgb(230, 10, 219);
+    flex-direction: row;
+}
+.picture-section {
+    height: 150px;
+    position: relative;
+}
+.picture {
+    width: 350px;
+    height: 150px;
+}
+.discount {
+    background-color: black;
+    color: white;
+    position: absolute;
+    padding: 4px 8px;
+}
+.info {
+    padding: 8px;
+    color: #2D3748;
+    text-align:center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.listing {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom:4px;
+}
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}

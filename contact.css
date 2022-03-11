@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+}
+address{
+    color: white;
+}
+nav ul {
+    display: flex;
+    flex-wrap:wrap;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    list-style: none;
+    background-color: rgb(255, 230, 0);
+    color: black;
+    margin: 0;
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+    display: flex;
+}
+nav a, nav a:visited {
+    text-decoration: none;
+    width: 100%;
+    color: black;
+}
+nav a:hover {
+    color: white;
+    background-color: darkgray;
+}
+nav a:hover, nav a.active {
+    color: white;
+    background-color: darkgray;
+}
